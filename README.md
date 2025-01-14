@@ -24,12 +24,14 @@ Das Tool ermöglicht es, die Datenquellen einzeln oder kombiniert abzufragen. Be
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 ##  Verwendung
 Starte die Streamlit-App mit:
 
    ```bash
 streamlit run app.py
+   ```
 
 Öffne deinen Browser (normalerweise unter http://localhost:8501) und nutze die Benutzeroberfläche:
 
