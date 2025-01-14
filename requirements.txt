@@ -1,7 +1,7 @@
-streamlit
 requests
 overpy
 pandas
 geopy
-folium
+Folium
+streamlit
 streamlit-folium
