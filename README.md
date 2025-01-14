@@ -28,22 +28,20 @@ Das Tool ermöglicht es, die Datenquellen einzeln oder kombiniert abzufragen. Be
 ##  Verwendung
 Starte die Streamlit-App mit:
 
-bash
-Code kopieren
+   ```bash
 streamlit run app.py
+
 Öffne deinen Browser (normalerweise unter http://localhost:8501) und nutze die Benutzeroberfläche:
 
-Datenquelle wählen: Wähle in der Sidebar die zu verwendende(n) Datenquelle(n): OSM Overpass, Wikidata oder beide.
-Objektklasse auswählen: Wähle die gewünschte Objektklasse aus dem Dropdown-Menü aus.
-Geografischen Bereich wählen: Wähle einen Bereich (z. B. „Thüringen“ oder „Ganz Deutschland“).
-Hinweis: Bei "Ganz Deutschland" werden alle Bundesländer der Reihe nach abgearbeitet.
-Timeout und LIMIT: Stelle den Timeout (für OSM) und das LIMIT (für Wikidata, Standard 1000) ein.
-Ergebnisanzeige: Entscheide über die Anzeige – getrennt oder gemeinsam (mit Dublettenbereinigung).
-Klicke auf „Abfrage starten“, um die Ergebnisse abzurufen.
-Die Ergebnisse werden in Form einer JSON-Ausgabe und als Tabelle angezeigt. Bei gemeinsamer Anzeige können die Daten zudem zusammengeführt werden, wobei Dubletten anhand des Namens oder der Webseite entfernt werden.
+- **Datenquelle wählen:** Wähle in der Sidebar die zu verwendende(n) Datenquelle(n): OSM Overpass, Wikidata oder beide.
+- **Objektklasse auswählen:** Wähle die gewünschte Objektklasse aus dem Dropdown-Menü aus.
+- **Geografischen Bereich wählen:** Wähle einen Bereich (z. B. „Thüringen“ oder „Ganz Deutschland“).
+- **Hinweis:** Bei "Ganz Deutschland" werden alle Bundesländer der Reihe nach abgearbeitet.
+- **Timeout und LIMIT:** Stelle den Timeout (für OSM) und das LIMIT (für Wikidata, Standard 1000) ein.
+- **Ergebnisanzeige:** Entscheide über die Anzeige – getrennt oder gemeinsam (mit Dublettenbereinigung). Klicke auf „Abfrage starten“, um die Ergebnisse abzurufen. Die Ergebnisse werden in Form einer JSON-Ausgabe und als Tabelle angezeigt. Bei gemeinsamer Anzeige können die Daten zudem zusammengeführt werden, wobei Dubletten anhand des Namens oder der Webseite entfernt werden.
 
 ## Anpassungen
-Erweiterung der Objektklassen:
+- **Erweiterung der Objektklassen:**
 Die Mappings für OSM und Wikidata befinden sich im Quellcode. Füge bei Bedarf weitere Einträge hinzu.
 
 ## API-Parameter:
